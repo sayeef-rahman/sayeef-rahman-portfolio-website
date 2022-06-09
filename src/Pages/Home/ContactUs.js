@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
 const ContactUs = () => {
+    let formRef = useRef();
     function sendEmail(e) {
         e.preventDefault();
         const name = e.target.name.value;
@@ -10,16 +11,18 @@ const ContactUs = () => {
         const message = e.target.message.value;
 
         console.log(name, mobile, email, message);
-        
+
         emailjs.sendForm('service_g8sbfh5',
             'template_dxr1ktu',
             e.target,
             '4kVPFcUi8ScF-1AY6'
             ).then(res =>{
                 console.log(res);
+                formRef.current?.reset();
             }).catch(error =>{
                 console.log(error);
             })
+
     }
     return (
         <div className="hero bg-blend-lighten lg:w-3/4 mx-auto mb-10">
@@ -30,7 +33,7 @@ const ContactUs = () => {
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
-                        <form onSubmit={sendEmail}>
+                        <form onSubmit={sendEmail} ref={formRef}>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Name</span>
