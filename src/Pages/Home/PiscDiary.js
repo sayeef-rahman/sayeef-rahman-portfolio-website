@@ -12,7 +12,7 @@ const PiscDiary = () => {
                 <h1 className='text-4xl font-bold'>Hand Tools</h1>
                 <h1 className='text-xl my-2'>Tools manufaturer website for making regular & customised tools.</h1>
             </div>
-            <div className='grid lg:grid-cols-3 text-center lg:mx-96 my-5'>
+            <div className='grid lg:grid-cols-2 text-center lg:mx-96 my-5'>
                 {/* Live Preview */}
                 <div className='my-4'>
                     <button className='border'>
@@ -23,17 +23,9 @@ const PiscDiary = () => {
                 {/* Github Client */}
                 <div className='my-4'>
                     <button className='border'>
-                        <a href="https://github.com/sayeef-rahman/hand-tools-client" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Client</a>
+                        <a href="https://github.com/sayeef-rahman/pics-diary-single-service-provider" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Client</a>
                     </button>
                 </div>
-
-                {/* Github Server */}
-                <div className='my-4'>
-                    <button className='border'>
-                        <a href="https://github.com/sayeef-rahman/hand-tools-server" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Server</a>
-                    </button>
-                </div>
-
 
             </div>
             <h1 className='text-2xl text-center mt-20 lg:mb-10'>Project Screenshots</h1>

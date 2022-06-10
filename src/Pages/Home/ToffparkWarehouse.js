@@ -16,21 +16,21 @@ const ToffparkWarehouse = () => {
                 {/* Live Preview */}
                 <div className='my-4'>
                     <button className='border'>
-                        <a href="https://hand-tools-50644.web.app/" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Live Preview</a>
+                        <a href="https://toffpark-footwear-user.web.app/" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Live Preview</a>
                     </button>
                 </div>
 
                 {/* Github Client */}
                 <div className='my-4'>
                     <button className='border'>
-                        <a href="https://github.com/sayeef-rahman/hand-tools-client" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Client</a>
+                        <a href="https://github.com/sayeef-rahman/toffpark-footwear-inventory-client" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Client</a>
                     </button>
                 </div>
 
                 {/* Github Server */}
                 <div className='my-4'>
                     <button className='border'>
-                        <a href="https://github.com/sayeef-rahman/hand-tools-server" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Server</a>
+                        <a href="https://github.com/sayeef-rahman/toffpark-footwear-inventory-server" target={'_blank'} className='font-bold font-medium pr-3'> <FontAwesomeIcon icon={faLink} className="text-primary px-3"></FontAwesomeIcon>Github-Server</a>
                     </button>
                 </div>
 
