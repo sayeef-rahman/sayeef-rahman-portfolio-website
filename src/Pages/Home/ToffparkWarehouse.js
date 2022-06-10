@@ -1,7 +1,7 @@
 import React from 'react';
 import toffpark_warehouse from '../../assets/project2.png'
-// import toffpark_warehouse from '../../assets/project2.png'
-// import toffpark_warehouse from '../../assets/project2.png'
+import toffpark_warehouse2 from '../../assets/toffpark_warehouse2.jpg'
+import toffpark_warehouse3 from '../../assets/toffpark_warehouse3.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
@@ -39,22 +39,20 @@ const ToffparkWarehouse = () => {
             <h1 className='text-2xl text-center mt-20 lg:mb-10'>Project Screenshots</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10 mx-10 mt-5 mb-10'>
                 <img src={toffpark_warehouse} alt="" />
-                <img src={toffpark_warehouse} alt="" />
-                <img src={toffpark_warehouse} alt="" />
+                <img src={toffpark_warehouse2} alt="" />
+                <img src={toffpark_warehouse3} alt="" />
             </div>
 
             <div className='lg:ml-20 lg:mb-52 mx-4 mb-20'>
                 <h1 className='text-2xl font-semibold mt-20'>Features</h1>
                 <ul className='text-justify'>
-                    <li># Users can buy tools, check personal orders & delivery information</li>
-                    <li># Make payments, give reviews, update user information</li>
-                    <li># Make payments, give reviews, update user information</li>
-                    <li># Admin panel – Manage products & orders</li>
-                    <li># Test Email: mam@gmail.com, Password: 123456</li>
+                    <li># Admin can manage all operations</li>
+                    <li># Add new products</li>
+                    <li># Check My Items for Specific admin</li>
+                    <li># Firebase Authentication</li>
                 </ul>
                 <h1 className='text-xl font-semibold mt-6'>Technologies Used</h1>
-                <p className='text-justify'>React, React Router, DaisyUI, Tailwind, Firebase Authentication, Express js,
-                    NodeJS, MongoDB, Heroku</p>
+                <p className='text-justify'>React, React Router, Bootstrap, Firebase Authentication, Font awesome, hooks</p>
             </div>
         </div>
     );
