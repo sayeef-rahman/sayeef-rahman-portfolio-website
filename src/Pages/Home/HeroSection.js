@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <p className="mb-5  text-justify">Hand tools have been used by humans since the Stone Age when stones were used for hammering & cutting. In the Bronze Age tools were made by casting the copper & tin alloys. Bronze tools were sharper & harder than those made of stone.</p>
                 </div>
                 <div>
-                    <a href={resume} target="_blank"><button className='btn btn-primary font-bold text-white'>Download Resume</button></a>
+                    <a href={resume} target="_blank"><button className='btn btn-primary font-bold text-white rounded-none'>Download Resume</button></a>
                 </div>
             </div>
         </div>
