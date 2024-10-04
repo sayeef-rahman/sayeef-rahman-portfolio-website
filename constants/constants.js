@@ -18,8 +18,8 @@ export const SKILLS = [
     level: "91%",
   },
   {
-    title: 'Desktop Application Developer',
-    level: '75%',
+    title: "Desktop Application Developer",
+    level: "75%",
   },
   {
     title: "Backend Developer",
@@ -53,11 +53,15 @@ export const TECH_STACK = [
   "Jira",
   "Figma",
   "Adobe XD",
+  "tRPC",
+  "shadcn UI",
+  "antD",
+  "Bootstrap",
 ];
 
 export const CONTACTS = {
   EMAIL: "sayeef.cse@gmail.com",
-  PHONE: "+923159591822",
+  PHONE: "+8801780540576",
 };
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/sayeef-rahman",
