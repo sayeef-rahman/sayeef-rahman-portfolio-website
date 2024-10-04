@@ -1,22 +1,32 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {},
-  },
-  daisyui: {
-    themes: [
-      {
-        portfoliotheme: {
-          primary: "#a991f7",
-          secondary: "#f6d860",
-          accent: "#37cdbe",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
-        },
+    extend: {
+      colors: {
+        Green: "#1fdf64",
+        Black: "#000",
+        DeepNightBlack: "#121212",
+        MidNightBlack: "#181818",
+        EveningBlack: "#1a1a1a",
+        DarkGray: "#282828",
+        SlateGray: "#404040",
+        LightGray: "#959595",
+        SilverGray: "#B3B3B3",
+        Snow: "#ffffff",
       },
-      "dark",
-      "cupcake",
-    ],
+      fontFamily: {
+        'cascadia-normal': ['cascadia-normal'],
+        'circular': ['circular-normal', 'sans-serif'],
+        'circular-light': ['circular-light', 'sans-serif'],
+        'circular-normal': ['circular-normal', 'sans-serif'],
+        'circular-medium': ['circular-medium', 'sans-serif'],
+        'circular-bold': ['circular-bold', 'sans-serif'],
+
+      }
+    },
   },
-  plugins: [require("daisyui")],
 }
