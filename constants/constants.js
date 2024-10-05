@@ -1,11 +1,25 @@
 export const NAME = "Sayeef Rahman";
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const LANGUAGE_DATA = [
+  {
+    key: "bengali",
+    label: "Bengali",
+    proficiencyLevel: 95,
+  },
+  {
+    key: "english",
+    label: "English",
+    proficiencyLevel: 85,
+  },
+];
+
+export const DESIGNATION = `Software Engineer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
   Residence: "Bangladesh",
   City: "Dhaka",
   Age: "26",
+  Gender: "Male"
 };
 
 export const SKILLS = [
@@ -63,6 +77,7 @@ export const CONTACTS = {
   EMAIL: "sayeef.cse@gmail.com",
   PHONE: "+8801780540576",
 };
+
 export const SOCIAL_LINKS = {
   GITHUB: "https://github.com/sayeef-rahman",
   LINKEDIN: "https://www.linkedin.com/in/sayeef-rahman/",
