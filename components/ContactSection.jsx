@@ -1,19 +1,16 @@
-import { useState } from "react";
-import BannerLayout from "../components/Common/BannerLayout";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { SiUpwork } from "react-icons/si";
-import { HiMail, HiUser } from "react-icons/hi";
-import { BsChatTextFill } from "react-icons/bs";
-import Fiverr_Icon from "../components/Fiverr_Icon";
-import Footer from "../components/Footer";
 import { Modal } from "antd";
 import Link from "next/link";
+import { useState } from "react";
+import { BsChatTextFill } from "react-icons/bs";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { HiMail, HiUser } from "react-icons/hi";
+import BannerLayout from "./Common/BannerLayout";
 
-const Contact = () => {
+const ContactSection = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <BannerLayout>
+    <div className="inset-0 z-20 flex flex-col items-center justify-center w-full h-full bg-gradient-to-t from-MidNightBlack">
       <div className=" px-4 py-2">
         <div className="my-6 text-Snow flex flex-col gap-y-5">
           <h1 className="text-lg font-bold">Contact Information</h1>
@@ -158,8 +155,7 @@ const Contact = () => {
 
               <div className="my-4">
                 <button onClick={() => setIsOpen(true)} className="button">
-                  {" "}
-                  SEND MESSAGE{" "}
+                  SEND MESSAGE
                 </button>
               </div>
             </div>
@@ -169,7 +165,6 @@ const Contact = () => {
       {/* success modal */}
       <Modal
         className="card_stylings backdrop-blur-3xl drop-shadow-2xl"
-        // wrapClassName='bg-red-800'
         centered
         open={isOpen}
         footer={null}
@@ -189,9 +184,8 @@ const Contact = () => {
           </a>
         </div>
       </Modal>
-      <Footer />
-    </BannerLayout>
+    </div>
   );
 };
 
-export default Contact;
+export default ContactSection;

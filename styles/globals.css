@@ -17,10 +17,10 @@ body {
       @apply transition-all delay-200 !duration-1000;
     }
     .card_stylings {
-      @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
+      @apply bg-EveningBlack/95 rounded-lg hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
     }
     .button {
-      @apply bg-Green hover:bg-Green/60 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
+      @apply bg-Green hover:bg-Green/60 transition rounded-lg text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
       @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
