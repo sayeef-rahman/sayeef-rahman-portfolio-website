@@ -39,7 +39,7 @@ export default function Layout({ children }) {
       <div className="flex relative h-full justify-between gap-x-3">
         {/* left most side */}
         <div
-          className={`w-64 h-screen left-0 lg:rounded-xl -top-10 lg:top-0 lg:left-0 lg:h-full overflow-hidden bg-DeepNightBlack shadow-2xl z-50 lg:flex flex-col  lg:relative ${
+          className={`w-72 ld:w-2/12 h-screen left-0 lg:rounded-xl -top-10 lg:top-0 lg:left-0 lg:h-full overflow-hidden bg-DeepNightBlack shadow-2xl z-50 lg:flex flex-col  lg:relative ${
             intro ? "flex absolute" : "hidden"
           }`}
         >
@@ -54,13 +54,13 @@ export default function Layout({ children }) {
         )}
 
         {/* middle of screen */}
-        <div className="w-full h-auto lg:w-9/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden no-scrollbar">
+        <div className="w-full h-auto lg:w-10/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden no-scrollbar">
           {children}
         </div>
 
         {/* right side */}
         {/* right side */}
-        <div
+        {/* <div
           className={`hidden lg:block absolute lg:w-20 lg:relative bg-DeepNightBlack shadow-2xl rounded-xl overflow-hidden`}
         >
           <div
@@ -75,8 +75,8 @@ export default function Layout({ children }) {
           <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 flex items-center justify-center text-center text-xl text-gray-600 font-extrabold tracking-widest">
             NavBar
           </span>
-        </div>
-        {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />}
+        </div> */}
+        {/* {<Nav isOpen={isOpen} setIsOpen={setIsOpen} />} */}
       </div>
     </div>
   );
