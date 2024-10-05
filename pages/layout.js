@@ -25,7 +25,7 @@ export default function Layout({ children }) {
               <FaMousePointer />
             </div>
           </div>
-          <div
+          {/* <div
             className="icon flex items-center gap-x-2"
             onClick={(e) => setIsOpen(!isOpen)}
           >
@@ -33,7 +33,7 @@ export default function Layout({ children }) {
               {" "}
               <FaBars />
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex relative h-full justify-between gap-x-3">
