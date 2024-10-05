@@ -1,11 +1,11 @@
-export const NAME = "Muhammad Sayeef Javaid";
+export const NAME = "Sayeef Rahman";
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
-  Residence: "Pakistan",
-  City: "Peshawar",
-  Age: "23",
+  Residence: "Bangladesh",
+  City: "Dhaka",
+  Age: "26",
 };
 
 export const SKILLS = [
@@ -15,15 +15,15 @@ export const SKILLS = [
   },
   {
     title: "React Developer",
-    level: "91%",
+    level: "95%",
   },
   {
     title: "Desktop Application Developer",
-    level: "75%",
+    level: "25%",
   },
   {
     title: "Backend Developer",
-    level: "54%",
+    level: "50%",
   },
   {
     title: "Technical Blogger",
