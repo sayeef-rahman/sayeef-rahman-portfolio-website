@@ -5,7 +5,7 @@ const ExpertiseCard = ({ data }) => {
         <CardLayout>
             <div className="h-full space-y-2 p-8 card_stylings">
                 <div className=" text-Snow">{data.title}</div>
-                <div className="text-sm text-LightGray font-normal">
+                <div className="text-base text-LightGray font-normal">
                     {data.desc}
                 </div>
             </div>

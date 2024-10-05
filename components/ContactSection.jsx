@@ -13,37 +13,37 @@ const ContactSection = () => {
     <div className="w-full px-4 mt-5 from-MidNightBlack">
       <h1 className="text-3xl text-Snow text-center">CONTACT INFORMATION</h1>
       <div className="w-full my-6 text-Snow flex flex-col lg:flex-row gap-5">
-        <div className="w-full lg:w-50 p-4 text-xs card_stylings flex flex-col gap-4">
+        <div className="w-full lg:w-50 p-4 text-base card_stylings flex flex-col gap-4">
           <div className="flex justify-between items-center">
             <span className="md:text-base">Country:</span>
-            <span className="text-LightGray md:text-sm">Bangladesh</span>
+            <span className="text-LightGray md:text-base">Bangladesh</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="md:text-base">City:</span>
-            <span className="text-LightGray md:text-sm">Dhaka</span>
+            <span className="text-LightGray md:text-base">Dhaka</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="md:text-base">Company:</span>
-            <span className="text-LightGray md:text-sm">
+            <span className="text-LightGray md:text-base">
               Adventure Dhaka Limited
             </span>
           </div>
           <div className="flex justify-between items-center">
             <span className="md:text-base">Email:</span>
-            <span className="text-LightGray text-sm">sayeef.cse@gmail.com</span>
+            <span className="text-LightGray text-base">sayeef.cse@gmail.com</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="md:text-base">Linkedin:</span>
-            <span className="text-LightGray text-sm">sayeef-rahman</span>
+            <span className="text-LightGray text-base">sayeef-rahman</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="md:text-base">Phone:</span>
-            <span className="text-LightGray text-sm">+8801780540576</span>
+            <span className="text-LightGray text-base">+8801780540576</span>
           </div>
           {/* <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4"></div> */}
         </div>
         <div className="w-full lg:w-50 text-Snow">
-          <div className="p-4 bg-EveningBlack rounded-xl text-sm">
+          <div className="p-4 bg-EveningBlack rounded-xl text-base">
             <h1 className="text-lg font-bold mb-4">Get In Touch</h1>
             <div>
               <div className="flex flex-col w-full">

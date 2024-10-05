@@ -23,7 +23,7 @@ body {
       @apply bg-Green hover:bg-Green/60 transition rounded-lg text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
-      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
+      @apply bg-DeepNightBlack text-SilverGray text-base rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
     }
 
     /*

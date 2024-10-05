@@ -19,7 +19,7 @@ module.exports = {
         Snow: "#ffffff",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        openSans: ["Open Sans"],
       },
     },
   },

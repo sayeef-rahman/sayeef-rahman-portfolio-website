@@ -16,7 +16,7 @@ const Banner = () => {
                 </h1>
               </div>
               <div className="">
-                <div className=" py-4 font-poppins-regular text-Snow pb-4 text-xs h-20 lg:h-auto">
+                <div className=" py-4 font-openSans-regular text-Snow pb-4 text-base h-20 lg:h-auto">
                   <span className="text-Snow sm:text-xl xl:text-2xl font-bold">
                     I am a{" "}
                     <span className="inline-block">
@@ -63,28 +63,28 @@ const Banner = () => {
             <span className="text-base md:text-lg text-Green font-bold">
               10+
             </span>
-            <span className="text-xs text-Snow">Completed Projects</span>
+            <span className="text-base text-Snow">Completed Projects</span>
           </div>
 
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
               8+
             </span>
-            <span className="text-xs text-Snow">Freelance Clients</span>
+            <span className="text-base text-Snow">Freelance Clients</span>
           </div>
 
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
               5+
             </span>
-            <span className="text-xs text-Snow">Honors & Awards</span>
+            <span className="text-base text-Snow">Honors & Awards</span>
           </div>
 
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
               10+
             </span>
-            <span className="text-xs text-Snow">Opensource Projects</span>
+            <span className="text-base text-Snow">Opensource Projects</span>
           </div>
         </div>
       </div>

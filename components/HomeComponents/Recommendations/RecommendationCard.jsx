@@ -9,8 +9,8 @@ const RecommendationCard = ({ data }) => {
                 <div className=" text-Snow underline italic">
                     <a href={data?.linkednURL} target="_blank" rel="noreferrer">{data?.name}</a>
                 </div>
-                <div className="text-xs text-LightGray italic mt-1">{data?.designation}</div>
-                <div className="text-sm mt-2 text-LightGray font-normal ">{data?.view}</div>
+                <div className="text-base text-LightGray italic mt-1">{data?.designation}</div>
+                <div className="text-base mt-2 text-LightGray font-normal ">{data?.view}</div>
             </div>
         </CardLayout>
     )

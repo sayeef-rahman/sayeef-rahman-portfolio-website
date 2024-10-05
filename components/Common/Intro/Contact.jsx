@@ -7,13 +7,13 @@ const Contact = () => {
     <div className="flex flex-col space-y-2 pt-6">
       <div className="flex flex-col">
         <span className="text-Green text-base font-bold">Email</span>
-        <span className="text-sm text-Snow" mailto>
+        <span className="text-base text-Snow" mailto>
           <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link>
         </span>
       </div>
       <div className="flex flex-col">
         <span className="text-Green text-base font-bold">Phone</span>
-        <span className="text-sm text-Snow">{CONTACTS.PHONE}</span>
+        <span className="text-base text-Snow">{CONTACTS.PHONE}</span>
       </div>
     </div>
   );

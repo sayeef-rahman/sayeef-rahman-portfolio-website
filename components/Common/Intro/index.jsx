@@ -31,7 +31,7 @@ const Intro = () => {
           <span className="text-gray-300 text-base font-bold break-normal">
             {NAME}
           </span>
-          <span className="text-sm text-LightGray text-center">
+          <span className="text-base text-LightGray text-center">
             {DESIGNATION}
           </span>
         </div>

@@ -8,8 +8,8 @@ const Location = () => {
       {keys?.map((key, index) => {
         return (
           <div key={index} className='flex items-center justify-between'>
-            <span className='text-Snow text-sm'>{key}</span>
-            <span className='text-sm text-gray-200'>{DETAILS[key]}</span>
+            <span className='text-Snow text-base'>{key}</span>
+            <span className='text-base text-gray-200'>{DETAILS[key]}</span>
           </div>
         );
       })}
