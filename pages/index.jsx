@@ -5,11 +5,13 @@ import ClientReviews from "../components/HomeComponents/ClientReviews/ClientRevi
 import MyExpertise from "../components/HomeComponents/Expertise/MyExpertise";
 import Recommendations from "../components/HomeComponents/Recommendations/Recommendations";
 import PortfolioSection from "../components/Portfolio/PortfolioSection";
+import Background from "./background";
 
 const home = () => {
   return (
-    <div className="Home-Page -z-10">
+    <div className="w-full">
       <Banner />
+      <Background />
       <MyExpertise />
       <PortfolioSection />
       <Recommendations />
