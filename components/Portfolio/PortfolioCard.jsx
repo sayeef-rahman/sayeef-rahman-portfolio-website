@@ -6,11 +6,11 @@ const PortfolioCard = ({ data }) => {
       <img
         src={data?.image}
         alt="portfolio img"
-        className="w-full rounded-lg object-cover opacity-80 h-32 sm:h-48 md:h-64"
+        className="w-full rounded-lg object-cover h-32 sm:h-48 md:h-64"
       />
       <div
         id="arrow"
-        className="mt-2 !bg-none card_stylings hover:-translate-y-10 transition-all ease-in-out duration-500"
+        className="mt-2 !bg-none hover:-translate-y-10 transition-all ease-in-out duration-500"
       >
         <div className="flex justify-between p-0 m-0 ">
           <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
