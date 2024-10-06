@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       className={`h-screen lg:p-[0.8rem] flex flex-col select-none font-circular`}
     >
       <div className="lg:hidden">
-        <div className=" bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative">
+        <div className="bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between p-4 lg:hidden relative">
           <div
             className="icon flex items-center gap-x-2"
             onClick={(e) => setIntro(!intro)}
