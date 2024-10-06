@@ -10,7 +10,7 @@ const PortfolioCard = ({ data }) => {
       />
       <div
         id="arrow"
-        className="mt-2 card_stylings hover:-translate-y-10 transition-all ease-in-out duration-500"
+        className="mt-2 !bg-none card_stylings hover:-translate-y-10 transition-all ease-in-out duration-500"
       >
         <div className="flex justify-between p-0 m-0 ">
           <h3 className="mr-2 underline italic font-semibold pt-2 text-2xl text-Snow leading-tight sm:leading-normal">
@@ -42,7 +42,7 @@ const PortfolioCard = ({ data }) => {
         <p className="text-base text-LightGray font-normal">
           {data?.projectDetail}
         </p>
-        <div className="text-base flex flex-wrap gap-3 py-2">
+        <div className="text-sm flex flex-wrap gap-3 py-2">
           {data.technologiesUsed.map((index, key) => (
             <Badge key={key} title={index.tech} />
           ))}
