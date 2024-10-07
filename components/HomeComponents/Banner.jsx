@@ -1,11 +1,13 @@
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
+import HeroImage from "../../public/images/heroSectionImage.png";
+import Image from "next/image";
 
 const Banner = () => {
   return (
     <div className="w-full px-40 rounded-lg flex flex-col items-center justify-around h-[550px] bg-gradient-bg bg-400% animate-gradient">
       <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between">
-        <div className="flex flex-col items-center gap-6 md:justify-between">
+        <div className="w-50 flex flex-col items-center gap-6 md:justify-between">
           <h1 className="text-2xl md:text-4xl x text-Snow font-bold">
             Hello, Check This Outttttt!
           </h1>
@@ -39,8 +41,8 @@ const Banner = () => {
             Explore
           </Link>
         </div>
-        <div className="w-48 h-52">
-          <img src="../../public/images/heroSectionImage.png" alt="hero section image" />
+        <div className="w-50">
+          <Image src={HeroImage} alt="hero section image" className="w-full" />
         </div>
       </div>
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { CONTACTS } from "../../../constants/constants";
-import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -8,7 +7,8 @@ const Contact = () => {
       <div className="flex flex-col">
         <span className="text-Green text-base font-bold">Email</span>
         <span className="text-base text-Snow" mailto>
-          <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link>
+          {/* <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link> */}
+          {CONTACTS.EMAIL}
         </span>
       </div>
       <div className="flex flex-col">
