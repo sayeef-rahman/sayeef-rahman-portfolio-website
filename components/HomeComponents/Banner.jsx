@@ -1,11 +1,9 @@
-import Typewriter from "typewriter-effect";
-import BannerLayout from "../Common/BannerLayout";
 import { Link } from "react-scroll";
-import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   return (
-    <div className="w-full px-40 rounded-lg flex flex-col items-center justify-around h-[550px] bg-gradient-to-r from-indigo-400 from-10% via-sky-400 via-30% to-emerald-400 to-90%">
+    <div className="w-full px-40 rounded-lg flex flex-col items-center justify-around h-[550px] bg-gradient-bg bg-400% animate-gradient">
       <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="flex flex-col items-center gap-6 md:justify-between">
           <h1 className="text-2xl md:text-4xl x text-Snow font-bold">
@@ -42,7 +40,7 @@ const Banner = () => {
           </Link>
         </div>
         <div className="w-48 h-52">
-          <img className="w-full h-full" src="images/emoji.png" alt="emoji" />
+          <img src="../../public/images/heroSectionImage.png" alt="hero section image" />
         </div>
       </div>
 
