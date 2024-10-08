@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="flex flex-col space-y-2 pt-6">
       <div className="flex flex-col">
         <span className="text-Green text-base font-bold">Email</span>
-        <span className="text-base text-Snow" mailto>
+        <span className="text-base text-Snow">
           {/* <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link> */}
           {CONTACTS.EMAIL}
         </span>

@@ -21,7 +21,7 @@ const Intro = () => {
   return (
     <>
       {/* fixed at top */}
-      <div className="headerr z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-96 top-0 flex items-center justify-center w-full flex-col p-4 lg:gap-y-4">
+      <div className="z-50 absolute bg-MidNightBlack backdrop-blur-sm inset-y-0 h-96 top-0 flex items-center justify-center w-full flex-col p-4 lg:gap-y-4">
         <Image
           className="w-full h-auto object-cover rounded-lg"
           src={Sayeef}

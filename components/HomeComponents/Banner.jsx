@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className="w-full px-40 rounded-lg flex flex-col items-center justify-around h-[550px] bg-gradient-bg bg-400% animate-gradient">
-      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between">
-        <div className="w-50 flex flex-col items-center gap-6 md:justify-between">
-          <h1 className="text-2xl md:text-4xl x text-Snow font-bold">
-            Hello, Check This Outttttt!
+    <div className="w-full px-4 rounded-lg flex flex-col items-center justify-evenly h-[550px] bg-gradient-bg bg-400% animate-gradient">
+      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-evenly">
+        <div className="!w-50 flex flex-col items-center gap-6 md:justify-between">
+          <h1 className="text-2xl md:text-4xl x text-Snow font-thin">
+            Hello, Welcome to my profile
           </h1>
-          <div className="font-openSans-regular text-Snow text-base">
-            <span className="text-Snow sm:text-xl xl:text-2xl font-bold">
+          <div className="font-openSans-regular text-Snow text-base font-light">
+            <span className="text-Snow sm:text-xl xl:text-2xl">
               I am a{" "}
-              <span className="inline-block">
+              <span className="inline-block text-black">
                 <Typewriter
                   options={{
                     strings: [
@@ -30,7 +30,14 @@ const Banner = () => {
               </span>
             </span>
           </div>
-          <Link
+          {/* <div className="font-openSans-regular text-Snow text-lg text-center w-80">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
+            fugit quibusdam dolorem totam molestias nostrum! Optio a quo libero
+            nihil sit odit, possimus doloribus fugiat recusandae numquam
+            deleniti nobis inventore itaque, illum, ad quam? Sapiente molestiae
+            odit nulla nesciunt sint rem alias quas ad quam?
+          </div> */}
+          {/* <Link
             to="intro"
             spy={true}
             smooth={true}
@@ -39,10 +46,10 @@ const Banner = () => {
             className="button"
           >
             Explore
-          </Link>
+          </Link> */}
         </div>
-        <div className="w-50">
-          <Image src={HeroImage} alt="hero section image" className="w-full" />
+        <div className="!w-50">
+          <Image src={HeroImage} alt="hero section image" className="w-75" />
         </div>
       </div>
 
