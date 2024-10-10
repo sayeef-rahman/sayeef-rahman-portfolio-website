@@ -28,7 +28,7 @@ const Intro = () => {
           alt="profile picture"
         />
         <div className="flex flex-col gap-1 items-center justify-center mt-2 lg:mt-0">
-          <span className="text-gray-300 text-base font-bold break-normal">
+          <span className="text-gray-300 text-base font-normal break-normal">
             {NAME}
           </span>
           <span className="text-sm text-LightGray text-center">
