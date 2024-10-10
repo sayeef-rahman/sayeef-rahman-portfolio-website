@@ -13,7 +13,7 @@ const MyExpertise = () => {
 
   return (
     <div className="px-4">
-      <h1 className="text-2xl lg:text-3xl text-center text-Snow my-6">MY EXPERTISE</h1>
+      <h1 className="text-2xl lg:text-3xl text-center text-Snow my-16">MY EXPERTISE</h1>
       <div className="grid justify items-center grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-4">
         {isLoading
           ? [1, 2, 3, 4, 5, 6].map((index) => (

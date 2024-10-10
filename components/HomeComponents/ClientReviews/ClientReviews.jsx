@@ -13,7 +13,7 @@ const ClientReviews = () => {
 
   return (
     <div className="w-full px-4">
-      <h1 className="text-2xl md:text-3xl text-Snow text-center mb-6">
+      <h1 className="text-2xl md:text-3xl text-Snow text-center my-16">
         CLIENTS REVIEWS
       </h1>
       <div className="overflow-x-auto w-full grid justify-items-center grid-flow-col gap-4 pb-4">
