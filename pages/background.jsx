@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useQuery } from "react-query";
-import Edu_Card from "../components/Background/Edu_Card";
-import Exp_Card from "../components/Background/Exp_Card";
+import EducationCard from "../components/Background/EducationCard";
+import ExperienceCard from "../components/Background/ExperienceCard";
 import BannerLayout from "../components/Common/BannerLayout";
 import Footer from "../components/Footer";
 import ParagraphSkeleton from "../components/Common/ParagraphSkeleton";
@@ -29,7 +29,7 @@ function Background() {
             ))
           : data &&
             data[0]?.eduCards?.map((data, key) => (
-              <Edu_Card key={key} data={data} />
+              <EducationCard key={key} data={data} />
             ))}
       </div>
       <div className="order-1 md:order-2">
@@ -47,7 +47,7 @@ function Background() {
               ))
             : data &&
               data[1]?.expCards?.map((data, key) => (
-                <Exp_Card key={key} data={data} />
+                <ExperienceCard key={key} data={data} />
               ))}
         </div>
       </div>

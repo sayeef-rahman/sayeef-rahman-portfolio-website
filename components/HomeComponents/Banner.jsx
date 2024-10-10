@@ -1,55 +1,41 @@
-import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import HeroImage from "../../public/images/heroSectionImage.png";
 import Image from "next/image";
+// import Typewriter from "./TypeWritter";
 
 const Banner = () => {
+  const strings = ["MERN Stack", "NexJs", "ReactJs", "React Native"];
   return (
     <div className="w-full px-4 rounded-lg flex flex-col items-center justify-evenly h-[550px] bg-gradient-bg bg-400% animate-gradient">
-      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-evenly">
-        <div className="!w-50 flex flex-col items-center gap-6 md:justify-between">
-          <h1 className="text-2xl md:text-4xl x text-Snow font-thin">
-            Hello, Welcome to my profile
+      <div className="w-full flex flex-col-reverse md:flex-row items-center justify-around">
+        <div className="w-full flex flex-col items-center gap-6 md:justify-between">
+          <h1 className="text-2xl md:text-4xl x text-Snow font-thin text-center">
+            Welcome
           </h1>
-          <div className="font-openSans-regular text-Snow text-base font-light">
-            <span className="text-Snow sm:text-xl xl:text-2xl">
-              I am a{" "}
-              <span className="inline-block text-black">
-                <Typewriter
-                  options={{
-                    strings: [
-                      "MERN Stack Developer",
-                      "NexJs Developer",
-                      "ReactJs Developer",
-                      "React Native Developer",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </span>
-            </span>
+          <div className="flex flex-col justify-center items-center  font-openSans-regular text-Snow text-base font-light">
+            <p className="text-Snow text-2xl">Passionate About </p>
+            <p className="inline-block text-black text-center font-light text-2xl">
+              {/* <Typewriter
+                options={{
+                  strings: ["MERN Stack", "NexJs", "ReactJs", "React Native"],
+                  autoStart: true,
+                  loop: true,
+                }}
+                className="text-4xl"
+              /> */}
+              {/* <Typewriter
+                textArray={strings}
+                className="text-black text-2xl mt-4"
+              /> */}
+            </p>
           </div>
-          {/* <div className="font-openSans-regular text-Snow text-lg text-center w-80">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            fugit quibusdam dolorem totam molestias nostrum! Optio a quo libero
-            nihil sit odit, possimus doloribus fugiat recusandae numquam
-            deleniti nobis inventore itaque, illum, ad quam? Sapiente molestiae
-            odit nulla nesciunt sint rem alias quas ad quam?
-          </div> */}
-          {/* <Link
-            to="intro"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-50}
-            className="button"
-          >
-            Explore
-          </Link> */}
         </div>
-        <div className="!w-50">
-          <Image src={HeroImage} alt="hero section image" className="w-75" />
+        <div className="w-full">
+          <Image
+            src={HeroImage}
+            alt="hero section image"
+            className="w-full md:w-3/4"
+          />
         </div>
       </div>
 

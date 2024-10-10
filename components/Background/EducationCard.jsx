@@ -1,7 +1,7 @@
 import React from "react";
 import CardLayout from "../Common/CardLayout";
 
-const Edu_Card = ({ data }) => {
+const EducationCard = ({ data }) => {
   return (
     <CardLayout className="keepItEmpty">
       <div className="card_stylings transition px-8 py-10">
@@ -15,7 +15,7 @@ const Edu_Card = ({ data }) => {
           </div>
         </div>
         <div className="text-base text-LightGray font-normal italic mt-1 ">
-          {data.degree}
+          {data.institute}
         </div>
         <div className="text-LightGray text-base font-normal mt-4 ">
           {data.detail}
@@ -25,4 +25,4 @@ const Edu_Card = ({ data }) => {
   );
 };
 
-export default Edu_Card;
+export default EducationCard;
