@@ -58,7 +58,7 @@ function Background() {
         <div className="my-16 text-2xl md:test-3xl text-Snow font-normal text-center">
           CERTIFICATION
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {isLoading
             ? [1, 2, 3].map((index) => (
                 <ParagraphSkeleton

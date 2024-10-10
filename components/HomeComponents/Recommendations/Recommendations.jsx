@@ -14,7 +14,7 @@ const Recommendations = () => {
   return (
     <div className="px-4">
       <h1 className="text-2xl md:text-3xl text-Snow text-center my-16">RECOMMENDATIONS</h1>
-      <div className="grid w-full h-full mt-5 justify-items-start grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-x-4 gap-y-4 pb-8">
+      <div className="grid w-full h-full mt-5 justify-items-start grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-6 pb-8">
         {isLoading
           ? [1, 2, 3, 4].map((index) => (
               <ParagraphSkeleton

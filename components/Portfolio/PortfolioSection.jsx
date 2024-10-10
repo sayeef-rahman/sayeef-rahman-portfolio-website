@@ -15,7 +15,7 @@ const PortfolioSection = () => {
   return (
     <div className="px-4">
       <h1 className="text-2xl lg:text-3xl text-center text-Snow my-16">MY PROJECTS</h1>
-      <div className="grid justify items-center grid-flow-row md:grid-cols-3 grid-rows-auto gap-4">
+      <div className="grid justify items-center grid-flow-row md:grid-cols-3 grid-rows-auto gap-6">
         {isLoading
           ? [1, 2, 3, 4].map((index) => (
               <ImageAndParagraphSkeleton

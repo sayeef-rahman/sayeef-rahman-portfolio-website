@@ -12,8 +12,8 @@ const ContactSection = () => {
   return (
     <div className="w-full px-4 from-MidNightBlack">
       <h1 className="text-2xl md:text-3xl text-Snow text-center my-16">CONTACT INFORMATION</h1>
-      <div className="w-full my-6 text-Snow flex flex-col lg:flex-row gap-5">
-        <div className="w-full lg:w-50 p-4 text-base card_stylings flex flex-col gap-4">
+      <div className="w-full my-6 text-Snow flex flex-col lg:flex-row gap-6">
+        <div className="w-full lg:w-50 p-4 text-base card_stylings flex flex-col gap-6">
           <div className="flex justify-between items-center">
             <span className="md:text-base">Country:</span>
             <span className="text-LightGray md:text-base">Bangladesh</span>

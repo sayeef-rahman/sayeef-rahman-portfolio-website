@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   const [intro, setIntro] = useState(false);
 
   return (
-    <div className="h-screen lg:p-[0.8rem] flex flex-col select-none font-circular">
+    <div className="h-screen lg:p-[0.8rem] flex flex-col font-circular">
       <div className="lg:hidden">
         <div className="bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between p-4 lg:hidden relative">
           <div
@@ -42,7 +42,7 @@ export default function Layout({ children }) {
         )}
 
         {/* middle of screen */}
-        <div className="w-full h-auto lg:w-10/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden no-scrollbar">
+        <div className="w-full h-auto lg:w-10/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden">
           {children}
         </div>
       </div>
