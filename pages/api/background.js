@@ -6,7 +6,7 @@ const background = [
         title: "BSc. in Computer Science & Engineering",
         institute: "Bangladesh University of Business & Technology",
         detail:
-          "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
+          "Bachelor's Degree in Computer Science & Engineering from Bangladesh University of Business & Technology.",
         year: "2016-2020",
       },
       {
@@ -14,7 +14,7 @@ const background = [
         title: "Higher Secondary Certificate - Science",
         institute: "Alamdanga Govt. Degree College",
         detail:
-          "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
+          "Completed HSC from Alamdanga Govt. Degree College.",
         year: "2015",
       },
       {
@@ -22,7 +22,7 @@ const background = [
         title: "Secondary School Certificate - Science",
         institute: "Alamdanga Govt. High School",
         detail:
-          "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
+          "Completed SSC in Science subjects from Alamdanga Govt. High School",
         year: "2013",
       },
     ],
@@ -33,7 +33,7 @@ const background = [
         id: 1,
         businessName: "Adventure Dhaka Limited",
         role: "Software Engineer",
-        url: "https://jmm.ltd/",
+        url: "https://bd.adventurekk.com/",
         desc: "As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.",
         year: "Dec 2023 - Present  (Full-time, On-site)",
         location: "Dhaka, Bangladesh",
@@ -52,7 +52,7 @@ const background = [
         businessName: "Digitarly",
         role: "Social Media Marketing Specialist",
         url: "https://www.digitarly.com/",
-        desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
+        desc: "I work there as a SMMS, there I learned how to manage business with great KPI",
         year: "Nov 2020 - Jun 2022 (Full-Time, On-site)",
         location: "Mirpur, Dhaka, Bangladesh",
       },
@@ -61,7 +61,7 @@ const background = [
         businessName: "Digitarly",
         role: "Social Media Marketing Executive",
         url: "https://www.digitarly.com/",
-        desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
+        desc: "I work there as a SMME, there I learned how the digital marketing system works",
         year: "Nov 2019 - Oct 2020 (Part-Time, Hybrid)",
         location: "Mirpur, Dhaka, Bangladesh",
       },
